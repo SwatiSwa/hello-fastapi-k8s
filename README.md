@@ -58,4 +58,9 @@ docker-compose up --build
 ```
 
 Then open `http://127.0.0.1:8000` and `http://127.0.0.1:8000/docs` as usual.
-# hello-fastapi-k8s
+
+## Kubernetes
+
+Kubernetes manifests live in the `k8s/` folder. See `k8s/README.md` for Minikube and registry instructions, access methods (minikube service, port-forward, NodePort), and troubleshooting tips.
+
+Link: `k8s/README.md`
